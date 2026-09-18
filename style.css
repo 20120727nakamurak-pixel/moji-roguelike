@@ -1,16 +1,31 @@
 body {
     margin: 0;
     background: #111;
-    color: #fff;
+    color: white;
     font-family: sans-serif;
+}
+
+.title-screen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
-h1 {
-    margin-top: 100px;
-    font-size: 40px;
+.title-screen h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
 }
 
-p {
+.subtitle {
     font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#start-button {
+    font-size: 24px;
+    padding: 12px 40px;
+    cursor: pointer;
 }
